@@ -1,0 +1,33 @@
+// src/data/TaskList.js
+
+const taskList = [
+  {
+    id: "1",
+    name: "Write proposal",
+    description: "For the client demo",
+    priority: "High",
+    timeDuration: 45,
+    dueDate: "2025-04-13T14:30:00Z",
+    completed: false,
+  },
+  {
+    id: "2",
+    name: "Write proposal",
+    description: "For the client demo",
+    priority: "Medium",
+    timeDuration: 45,
+    dueDate: "2025-04-13T14:30:00Z",
+    completed: false,
+  },
+  {
+    id: "3",
+    name: "Write proposal",
+    description: "For the client demo",
+    priority: "Low",
+    timeDuration: 45,
+    dueDate: "2025-04-13T14:30:00Z",
+    completed: false,
+  },
+];
+
+export default taskList;
